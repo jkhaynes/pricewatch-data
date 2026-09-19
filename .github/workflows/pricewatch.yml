@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jkhaynes/pricewatch
-          ref: main # or pin a commit
+          ref: phase2 # or pin a commit
           path: src
 
       - uses: actions/setup-go@v5
